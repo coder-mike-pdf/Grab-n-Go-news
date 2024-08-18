@@ -1,0 +1,33 @@
+html {
+    display: absolute;
+}
+
+.logo {
+    position: fixed;
+    color: #ffffff; 
+    z-index: 1002;
+    font-family: "Ubuntu", sans-serif; 
+    font-size: 98px; /* Increased font size */
+    font-weight: bold;
+    top: -1.50px; 
+    left: 32%; 
+}
+
+.logo2 {
+    position: fixed;
+    font-size: 70px;
+    font-family: "Ubuntu", sans-serif;
+    z-index: 1002;
+    font-weight: bold;
+    top: 25px;
+    left: 57%;
+    color: rgb(11, 179, 245);
+    text-align: center;
+}
+
+
+
+
+
+
+

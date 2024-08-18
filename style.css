@@ -1,0 +1,1619 @@
+html {
+    display: absolute;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.button {
+    font-size: 16px;
+    width: auto;
+}
+
+#images {
+    font-size: 16px;
+    border: #687075; 
+    border-right: 50px;
+    border-top: 30px;
+    height: 170px;
+    width: 100000px;
+    border-left-width: 4000;
+    position: fixed;
+    top: -7%;
+    left: 0%; 
+    background-color: #687075;
+    z-index: 1000; 
+}
+
+#image1 {
+    position: absolute;
+    top: 21%;
+    left: 46%;
+    border-radius: 10px;
+}
+    
+    .button, #button1{
+    transition: color 0.3s ease;
+    position: absolute;
+    border-radius: 5%;
+    background-color: #6C757D;
+    color: #E0FFFF;
+    cursor: pointer;
+    top: 47%;
+    left: 46%;
+    width: 350px;
+    padding: 5px 10px;
+    font-size: 20px;
+    }
+    
+
+
+    .button:hover, #button1:hover {
+    color: red;
+    background-color: #333333;
+    }
+
+    .button, #button2{
+        transition: color 0.3s ease;
+        position: absolute;
+        border-radius: 5%;
+        background-color: #6C757D;
+        color: #E0FFFF;
+        cursor: pointer;
+        top: 48%;
+        left: 66.25%;
+        width: 400px;
+        padding: 5px 10px;
+        font-size: 20px;
+        }
+        
+    
+        .button:hover, #button2:hover {
+        color: red;
+        background-color: #333333;
+        }
+    
+    #images4 {
+            position:absolute;
+            top: 21%;
+            left: 12%;
+            border-radius: 10px;
+            border-bottom-left-radius: 1%;
+            border-bottom-right-radius: 1%;
+        }
+
+        #image2 {
+            position: absolute;
+            top: 21%;
+            left: 66.25%;
+            border-radius: 10px;
+        }
+    #text1 {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    font-family: "Open Sans", cursive;
+    font-size: 17px;
+    }
+
+
+    #text2 {
+        position: absolute;
+        top: 51%;
+        left: 72%;
+        font-family: "Open Sans", cursive;
+        font-size: 18px;
+        }
+        
+    #text4 {
+        position: absolute;
+        top: 55%;
+        left: 12%;
+        font-size: 22px;
+        font-family: "Merriweather", cursive;
+        font-weight: 400;
+    }
+
+
+    .hover-text {
+        font-family: "Open Sans", system-ui;
+        visibility: hidden;
+        position: absolute;
+        transform: translateX(-50%);
+        border-radius: 4px;
+        white-space: nowrap;
+        z-index: 1; 
+    }
+
+    .image-container:hover .hover-text {
+        visibility: visible;
+    }
+
+    #image5 {
+        position: absolute;
+        top: 65%;
+        left: 60%;
+        border-radius: 10px;
+        border-bottom-left-radius: 1%;
+        border-bottom-right-radius: 1%;
+    }
+
+    #h5s {
+        position: absolute;
+        top: 59%;
+        left: 68%;
+        font-size: 28px;
+        text-decoration: underline;
+    }
+
+    #text5 {
+        position: absolute;
+        top: 95.50%;
+        left: 60%;
+        font-weight: 400;
+        font-family: "Merriweather" system-ui;
+        font-size: 21px;
+    }
+
+    .button1, #button6 {
+        transition: color 0.3s ease;
+        position: absolute;
+        border-radius: 5%;
+        background-color: #6C757D;
+        color: #E0FFFF;
+        cursor: pointer;
+        top: 91.50%;
+        left: 12%;
+        width: 400.50px;
+        padding: 5px 10px;
+        font-size: 20px;
+        }
+        
+    
+        .button1:hover, #button6:hover {
+        color: red;
+        background-color: #333333;
+        }
+
+        .button1, #button7 {
+            transition: color 0.3s ease;
+            position: absolute;
+            border-radius: 5%;
+            background-color: #6C757D;
+            color: #E0FFFF;
+            cursor: pointer;
+            top: 87%;
+            left: 37%;
+            width: 400px;
+            padding: 5px 10px;
+            font-size: 20px;
+            }
+            
+        
+            .button1:hover, #button7:hover {
+            color: red;
+            background-color: #333333;
+            }
+
+            .button1, #button10 {
+                transition: color 0.3s ease;
+                position: absolute;
+                border-radius: 5%;
+                background-color: #6C757D;
+                color: #E0FFFF;
+                cursor: pointer;
+                top: 127.50%;
+                left: 42.50%;
+                width: 400px;
+                padding: 5px 10px;
+                font-size: 20px;
+                }
+                
+            
+                .button10:hover, #button10:hover {
+                color: red;
+                background-color: #333333;
+                }
+
+        #image6 {
+            position:absolute;
+            top: 66%;
+            left: 12%;
+            border-radius: 10px;
+        }
+
+        #image10 {
+            position: absolute;
+            top: 106%;
+            left: 42.50%;
+            border-radius: 10px;
+        }
+
+        #text6 {
+            position: absolute;
+            font-family: "Open Sans" system-ui;
+            font-size: 23px;
+            top: 93.50%;
+            left: 13%;
+        }
+        
+        #image7 {
+            position:absolute;
+            top: 65%;
+            left: 37%;
+            border-radius: 10px;
+        }
+
+        #text7 {
+            position: absolute;
+            font-family: "Open Sans" system-ui;
+            font-size: 25px;
+            top: 90.50%;
+            left: 39%;
+        }
+
+        #image8 {
+            position: absolute;
+            top: 106%;
+            left: 12%;
+            border-radius: 10px;
+            border-bottom-left-radius: 1%;
+            border-bottom-right-radius: 1%;
+        }
+    
+        #h8s {
+            position: absolute;
+            top: 99%;
+            left: 18%;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+    
+        #text8 {
+            position: absolute;
+            top: 137.25%;
+            left: 12%;
+            font-weight: 400;
+            font-family: "Merriweather" system-ui;
+            font-size: 25px;
+        }
+
+        #text10 {
+            position: absolute;
+            top: 130.50%;
+            left: 42.50%;
+            font-weight: 400;
+            font-family: "Merriweather" system-ui;
+            font-size: 22px;
+        }
+
+        #image9 {
+            position:absolute;
+            top: 106%;
+            left: 66%;
+            border-radius: 10px;
+        }
+
+        #text9 {
+            position: absolute;
+            font-family: "Open Sans" system-ui;
+            font-size: 23px;
+            top: 131%;
+            left: 67%;
+        }
+
+        .button1, #button9 {
+            transition: color 0.3s ease;
+            position: absolute;
+            border-radius: 5%;
+            background-color: #6C757D;
+            color: #E0FFFF;
+            cursor: pointer;
+            top: 127.50%;
+            left: 66%;
+            width: 450px;
+            padding: 5px 10px;
+            font-size: 20px;
+            }
+            
+        
+            .button1:hover, #button9:hover {
+            color: red;
+            background-color: #333333;
+            }
+
+            .custom-button8 {
+                position: absolute;
+                top: 102%;
+                left: 10.50%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 13px; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button8:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+            .custom-button9 {
+                position: absolute;
+                top: 104%;
+                left: 65%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 13px; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button9:hover {
+                background-color: white; 
+                color: black; 
+                border
+                : 2px solid #4CAF50;
+            }
+
+            .custom-button7 {
+                position: absolute;
+                top: 62%;
+                left: 35%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 13px; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button7:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+
+            .custom-button6 {
+                position: absolute;
+                top: 63%;
+                left: 10%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 13px; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button6:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+            .custom-button5 {
+                position: absolute;
+                top: 62.50%;
+                left: 59%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 163x; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button5:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+            .custom-button4 {
+                position: absolute;
+                left: 11%;
+                top: 18%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 13px; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button4:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+            .custom-button1 {
+                position: absolute;
+                left: 45.25%;
+                top: 18%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 13px; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button1:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+
+            .custom-button2 {
+                position: absolute;
+                left: 65.50%;
+                top: 18%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 13px; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button2:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+            .custom-button10 {
+                position: absolute;
+                top: 104%;
+                left: 41.50%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 13px; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button10:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+            .custom-button11 {
+                position: absolute;
+                top: 138%;
+                left: 64.50%;
+                background-color: #4CAF50; 
+                border: none; 
+                color: white; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 13px; 
+                margin: 10px 2px; 
+                cursor: pointer; 
+                border-radius: 12px; 
+                transition-duration: 0.4s; 
+            }
+        
+            .custom-button11:hover {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+            .button, #button11 {
+                transition: color 0.3s ease;
+                position: absolute;
+                border-radius: 5%;
+                background-color: #6C757D;
+                color: #E0FFFF;
+                cursor: pointer;
+                top: 166%;
+                left: 66%;
+                width: 450px;
+                padding: 5px 10px;
+                font-size: 20px;
+                }
+                
+            
+                .button:hover, #button11:hover {
+                color: red;
+                background-color: #333333;
+                }
+
+                #image11 {
+                    position:absolute;
+                    left: 66%;
+                    top: 142%;
+                    border-radius: 10px;
+                }
+        
+                #text11 {
+                    position: absolute;
+                    font-family: "Open Sans" system-ui;
+                    font-size: 25px;
+                    top: 168%;
+                    left: 75%;
+                }
+
+                .custom-button12 {
+                    position: absolute;
+                    top: 142%;
+                    left: 40%;
+                    background-color: #4CAF50; 
+                    border: none; 
+                    color: white; 
+                    padding: 15px 32px; 
+                    text-align: center; 
+                    text-decoration: none; 
+                    display: inline-block; 
+                    font-size: 13px; 
+                    margin: 10px 2px; 
+                    cursor: pointer; 
+                    border-radius: 12px; 
+                    transition-duration: 0.4s; 
+                }
+            
+                .custom-button12:hover {
+                    background-color: white; 
+                    color: black; 
+                    border: 2px solid #4CAF50;
+                }
+    
+                .button, #button12 {
+                    transition: color 0.3s ease;
+                    position: absolute;
+                    border-radius: 5%;
+                    background-color: #6C757D;
+                    color: #E0FFFF;
+                    cursor: pointer;
+                    top: 164.75%;
+                    left: 42%;
+                    width: 400px;
+                    padding: 5px 10px;
+                    font-size: 20px;
+                    }
+                    
+                
+                    .button:hover, #button12:hover {
+                    color: red;
+                    background-color: #333333;
+                    }
+    
+                    #image12 {
+                        position:absolute;
+                        left: 42%;
+                        top: 145%;
+                        border-radius: 10px;
+                    }
+            
+                    #text12 {
+                        position: absolute;
+                        font-family: "Open Sans" system-ui;
+                        font-size: 25px;
+                        top: 168%;
+                        left: 46%;
+                    }
+
+                    .custom-button13 {
+                        position: absolute;
+                        top: 144%;
+                        left: 13%;
+                        background-color: #4CAF50; 
+                        border: none; 
+                        color: white; 
+                        padding: 15px 32px; 
+                        text-align: center; 
+                        text-decoration: none; 
+                        display: inline-block; 
+                        font-size: 13px; 
+                        margin: 10px 2px; 
+                        cursor: pointer; 
+                        border-radius: 12px; 
+                        transition-duration: 0.4s; 
+                    }
+                
+                    .custom-button13:hover {
+                        background-color: white; 
+                        color: black; 
+                        border: 2px solid #4CAF50;
+                    }
+        
+                    .button, #button13 {
+                        transition: color 0.3s ease;
+                        position: absolute;
+                        border-radius: 5%;
+                        background-color: #6C757D;
+                        color: #E0FFFF;
+                        cursor: pointer;
+                        top: 170.50%;
+                        left: 15%;
+                        width: 450px;
+                        padding: 5px 10px;
+                        font-size: 20px;
+                        }
+                        
+                    
+                        .button:hover, #button13:hover {
+                        color: red;
+                        background-color: #333333;
+                        }
+        
+                        #image13 {
+                            position:absolute;
+                            left: 15%;
+                            top: 148%;
+                            border-radius: 10px;
+                        }
+                
+                        #text13 {
+                            position: absolute;
+                            font-family: "Open Sans" system-ui;
+                            font-size: 25px;
+                            top: 173.50%;
+                            left: 23%;
+                        }
+
+                        .custom-button14 {
+                            position: absolute;
+                            top: 180%;
+                            left: 14%;
+                            background-color: #4CAF50; 
+                            border: none; 
+                            color: white; 
+                            padding: 15px 32px; 
+                            text-align: center; 
+                            text-decoration: none; 
+                            display: inline-block; 
+                            font-size: 13px; 
+                            margin: 10px 2px; 
+                            cursor: pointer; 
+                            border-radius: 12px; 
+                            transition-duration: 0.4s; 
+                        }
+                    
+                        .custom-button14:hover {
+                            background-color: white; 
+                            color: black; 
+                            border: 2px solid #4CAF50;
+                        }
+            
+                        .button, #button14 {
+                            transition: color 0.3s ease;
+                            position: absolute;
+                            border-radius: 5%;
+                            background-color: #6C757D;
+                            color: #E0FFFF;
+                            cursor: pointer;
+                            top: 206%;
+                            left: 16%;
+                            width: 453px;
+                            padding: 5px 10px;
+                            font-size: 20px;
+                            }
+                            
+                        
+                            .button:hover, #button14:hover {
+                            color: red;
+                            background-color: #333333;
+                            }
+            
+                            #image14 {
+                                position:absolute;
+                                left: 16%;
+                                top: 182%;
+                                border-radius: 10px;
+                            }
+                    
+                            #text14 {
+                                position: absolute;
+                                font-family: "Open Sans" system-ui;
+                                font-size: 25px;
+                                top: 210%;
+                                left: 16%;
+                            }
+
+                            .custom-button15 {
+                                position: absolute;
+                                top: 176%;
+                                left: 43%;
+                                background-color: #4CAF50; 
+                                border: none; 
+                                color: white; 
+                                padding: 15px 32px; 
+                                text-align: center; 
+                                text-decoration: none; 
+                                display: inline-block; 
+                                font-size: 13px; 
+                                margin: 10px 2px; 
+                                cursor: pointer; 
+                                border-radius: 12px; 
+                                transition-duration: 0.4s; 
+                            }
+                        
+                            .custom-button15:hover {
+                                background-color: white;
+                                color: black; 
+                                border: 2px solid #4CAF50;
+                            }
+                
+                            .button, #button15 {
+                                transition: color 0.3s ease;
+                                position: absolute;
+                                border-radius: 5%;
+                                background-color: #6C757D;
+                                color: #E0FFFF;
+                                cursor: pointer;
+                                top: 204%;
+                                left: 44%;
+                                width: 400px;
+                                padding: 5px 20px;
+                                font-size: 20px;
+                                }
+                                
+                            
+                                .button:hover, #button15:hover {
+                                color: red;
+                                background-color: #333333;
+                                transform: scale(1.05);
+                                }
+                
+                                #image15 {
+                                    position:absolute;
+                                    left: 44%;
+                                    top: 178%;
+                                    border-radius: 10px;
+                                }
+                            
+                                #text15 {
+                                    position: absolute;
+                                    font-family: "Open Sans", system-ui;
+                                    font-size: 25px;
+                                    top: 206.50%;
+                                    left: 48%;
+                                }
+
+                                .custom-button16{
+                                    position: absolute;
+                                    top: 177%;
+                                    left: 67%;
+                                    background-color: #4CAF50; 
+                                    border: none; 
+                                    color: white; 
+                                    padding: 15px 32px; 
+                                    text-align: center; 
+                                    text-decoration: none; 
+                                    display: inline-block; 
+                                    font-size: 13px; 
+                                    margin: 10px 2px; 
+                                    cursor: pointer; 
+                                    border-radius: 12px; 
+                                    transition-duration: 0.4s; 
+                                }
+                            
+                                .custom-button16:hover {
+                                    background-color: white;
+                                    color: black; 
+                                    border: 2px solid #4CAF50;
+                                }
+                    
+                                .button, #button16 {
+                                    transition: color 0.3s ease;
+                                    position: absolute;
+                                    border-radius: 5%;
+                                    background-color: #6C757D;
+                                    color: #E0FFFF;
+                                    cursor: pointer;
+                                    top: 203%;
+                                    left: 68%;
+                                    width: 450px;
+                                    padding: 5px 20px;
+                                    font-size: 20px;
+                                    }
+                                    
+                                
+                                    .button:hover, #button16:hover {
+                                    color: red;
+                                    background-color: #333333;
+                                    transform: scale(1.05);
+                                    }
+                    
+                                    #image16 {
+                                        position:absolute;
+                                        left: 68%;
+                                        top: 180%;
+                                        border-radius: 10px;
+                                    }
+                                
+                                    #text16 {
+                                        position: absolute;
+                                        font-family: "Open Sans", system-ui;
+                                        font-size: 25px;
+                                        top: 205.50%;
+                                        left: 75%;
+                                    }
+
+                                    .custom-button17{
+                                        position: absolute;
+                                        top: 213%;
+                                        left: 67%;
+                                        background-color: #4CAF50; 
+                                        border: none; 
+                                        color: white; 
+                                        padding: 15px 32px; 
+                                        text-align: center; 
+                                        text-decoration: none; 
+                                        display: inline-block; 
+                                        font-size: 13px; 
+                                        margin: 10px 2px; 
+                                        cursor: pointer; 
+                                        border-radius: 12px; 
+                                        transition-duration: 0.4s; 
+                                    }
+                                
+                                    .custom-button17:hover {
+                                        background-color: white;
+                                        color: black; 
+                                        border: 2px solid #4CAF50;
+                                    }
+                        
+                                    .button, #button17 {
+                                        transition: color 0.3s ease;
+                                        position: absolute;
+                                        border-radius: 5%;
+                                        background-color: #6C757D;
+                                        color: #E0FFFF;
+                                        cursor: pointer;
+                                        top: 243%;
+                                        left: 68%;
+                                        width: 450px;
+                                        padding: 5px 20px;
+                                        font-size: 20px;
+                                        }
+                                        
+                                    
+                                        .button:hover, #button17:hover {
+                                        color: red;
+                                        background-color: #333333;
+                                        transform: scale(1.05);
+                                        }
+                        
+                                        #image17 {
+                                            position:absolute;
+                                            left: 68%;
+                                            top: 215%;
+                                            border-radius: 10px;
+                                        }
+                                    
+                                        #text17 {
+                                            position: absolute;
+                                            font-family: "Open Sans", system-ui;
+                                            font-size: 25px;
+                                            top: 245%;
+                                            left: 75%;
+                                        }
+
+                                        .custom-button18{
+                                            position: absolute;
+                                            top: 213%;
+                                            left: 43%;
+                                            background-color: #4CAF50; 
+                                            border: none; 
+                                            color: white; 
+                                            padding: 15px 32px; 
+                                            text-align: center; 
+                                            text-decoration: none; 
+                                            display: inline-block; 
+                                            font-size: 13px; 
+                                            margin: 10px 2px; 
+                                            cursor: pointer; 
+                                            border-radius: 12px; 
+                                            transition-duration: 0.4s; 
+                                        }
+                                    
+                                        .custom-button18:hover {
+                                            background-color: white;
+                                            color: black; 
+                                            border: 2px solid #4CAF50;
+                                        }
+                            
+                                        .button, #button18 {
+                                            transition: color 0.3s ease;
+                                            position: absolute;
+                                            background-color: #6C757D;
+                                            color: #E0FFFF;
+                                            cursor: pointer;
+                                            top: 240%;
+                                            left: 44%;
+                                            width: 400.50px;
+                                            padding: 5px 20px;
+                                            font-size: 20px;
+                                            }
+                                            
+                                        
+                                            .button:hover, #button18:hover {
+                                            color: red;
+                                            background-color: #333333;
+                                            transform: scale(1.05);
+                                            }
+                            
+                                            #image18 {
+                                                position:absolute;
+                                                left: 44%;
+                                                top: 216%;
+                                                border-radius: 10px;
+                                            }
+                                        
+                                            #text18 {
+                                                position: absolute;
+                                                font-family: "Open Sans", system-ui;
+                                                font-size: 25px;
+                                                top: 241.50%;
+                                                left: 51.50%;
+                                            }
+
+                                            .custom-button19{
+                                                position: absolute;
+                                                top: 213%;
+                                                left: 16%;
+                                                background-color: #4CAF50; 
+                                                border: none; 
+                                                color: white; 
+                                                padding: 15px 32px; 
+                                                text-align: center; 
+                                                text-decoration: none; 
+                                                display: inline-block; 
+                                                font-size: 13px; 
+                                                margin: 10px 2px; 
+                                                cursor: pointer; 
+                                                border-radius: 12px; 
+                                                transition-duration: 0.4s; 
+                                            }
+                                        
+                                            .custom-button19:hover {
+                                                background-color: white;
+                                                color: black; 
+                                                border: 2px solid #4CAF50;
+                                            }
+                                
+                                            .button, #button19 {
+                                                transition: color 0.3s ease;
+                                                position: absolute;
+                                                background-color: #6C757D;
+                                                color: #E0FFFF;
+                                                cursor: pointer;
+                                                top: 243%;
+                                                left: 17.50%;
+                                                width: 410px;
+                                                padding: 5px 20px;
+                                                font-size: 20px;
+                                                }
+                                                
+                                            
+                                                .button:hover, #button19:hover {
+                                                color: red;
+                                                background-color: #333333;
+                                                transform: scale(1.05);
+                                                }
+                                
+                                                #image19 {
+                                                    position:absolute;
+                                                    left: 17.50%;
+                                                    top: 216%;
+                                                    border-radius: 10px;
+                                                }
+                                            
+                                                #text19 {
+                                                    position: absolute;
+                                                    font-family: "Open Sans", system-ui;
+                                                    font-size: 25px;
+                                                    top: 244.70%;
+                                                    left: 23%;
+                                                }
+
+
+                                                .custom-button20{
+                                                    position: absolute;
+                                                    top: 251%;
+                                                    left: 16%;
+                                                    background-color: #4CAF50; 
+                                                    border: none; 
+                                                    color: white; 
+                                                    padding: 15px 32px; 
+                                                    text-align: center; 
+                                                    text-decoration: none; 
+                                                    display: inline-block; 
+                                                    font-size: 13px; 
+                                                    margin: 10px 2px; 
+                                                    cursor: pointer; 
+                                                    border-radius: 12px; 
+                                                    transition-duration: 0.4s; 
+                                                }
+                                            
+                                                .custom-button20:hover {
+                                                    background-color: white;
+                                                    color: black; 
+                                                    border: 2px solid #4CAF50;
+                                                }
+                                    
+                                                .button, #button20 {
+                                                    transition: color 0.3s ease;
+                                                    position: absolute;
+                                                    background-color: #6C757D;
+                                                    color: #E0FFFF;
+                                                    cursor: pointer;
+                                                    top: 275%;
+                                                    left: 17.50%;
+                                                    width: 410px;
+                                                    padding: 5px 20px;
+                                                    font-size: 20px;
+                                                    }
+                                                    
+                                                
+                                                    .button:hover, #button20:hover {
+                                                    color: red;
+                                                    background-color: #333333;
+                                                    transform: scale(1.05);
+                                                    }
+                                    
+                                                    #image20 {
+                                                        position:absolute;
+                                                        left: 17.50%;
+                                                        top: 254%;
+                                                        border-radius: 10px;
+                                                    }
+                                                
+                                                    #text20 {
+                                                        position: absolute;
+                                                        font-family: "Open Sans", system-ui;
+                                                        font-size: 25px;
+                                                        top: 277%;
+                                                        left: 21.50%;
+                                                    }
+
+                                                    .custom-button21{
+                                                        position: absolute;
+                                                        top: 249%;
+                                                        left: 42%;
+                                                        background-color: #4CAF50; 
+                                                        border: none; 
+                                                        color: white; 
+                                                        padding: 15px 32px; 
+                                                        text-align: center; 
+                                                        text-decoration: none; 
+                                                        display: inline-block; 
+                                                        font-size: 13px; 
+                                                        margin: 10px 2px; 
+                                                        cursor: pointer; 
+                                                        border-radius: 12px; 
+                                                        transition-duration: 0.4s; 
+                                                    }
+                                                
+                                                    .custom-button21:hover {
+                                                        background-color: white;
+                                                        color: black; 
+                                                        border: 2px solid #4CAF50;
+                                                    }
+                                        
+                                                    .button, #button21 {
+                                                        transition: color 0.3s ease;
+                                                        position: absolute;
+                                                        background-color: #6C757D;
+                                                        color: #E0FFFF;
+                                                        cursor: pointer;
+                                                        top: 273%;
+                                                        left: 43%;
+                                                        width: 410px;
+                                                        padding: 5px 20px;
+                                                        font-size: 20px;
+                                                        }
+                                                        
+                                                    
+                                                        .button:hover, #button21:hover {
+                                                        color: red;
+                                                        background-color: #333333;
+                                                        transform: scale(1.05);
+                                                        }
+                                        
+                                                        #image21 {
+                                                            position:absolute;
+                                                            left: 43%;
+                                                            top: 251%;
+                                                            border-radius: 10px;
+                                                        }
+                                                    
+                                                        #text21 {
+                                                            position: absolute;
+                                                            font-family: "Open Sans", system-ui;
+                                                            font-size: 25px;
+                                                            top: 274.50%;
+                                                            left: 48%;
+                                                        }
+
+                                                        .custom-button22 {
+                                                            position: absolute;
+                                                            top: 252%;
+                                                            left: 67.50%;
+                                                            background-color: #4CAF50; 
+                                                            border: none; 
+                                                            color: white; 
+                                                            padding: 15px 32px; 
+                                                            text-align: center; 
+                                                            text-decoration: none; 
+                                                            display: inline-block; 
+                                                            font-size: 13px; 
+                                                            margin: 10px 2px; 
+                                                            cursor: pointer; 
+                                                            border-radius: 12px; 
+                                                            transition-duration: 0.4s; 
+                                                        }
+                                                    
+                                                        .custom-button22:hover {
+                                                            background-color: white;
+                                                            color: black; 
+                                                            border: 2px solid #4CAF50;
+                                                        }
+                                            
+                                                        .button, #button22 {
+                                                            transition: color 0.3s ease;
+                                                            position: absolute;
+                                                            background-color: #6C757D;
+                                                            color: #E0FFFF;
+                                                            cursor: pointer;
+                                                            top: 274%;
+                                                            left: 69%;
+                                                            width: 420px;
+                                                            padding: 5px 20px;
+                                                            font-size: 20px;
+                                                            }
+                                                            
+                                                        
+                                                            .button:hover, #button22:hover {
+                                                            color: red;
+                                                            background-color: #333333;
+                                                            transform: scale(1.05);
+                                                            }
+                                            
+                                                            #image22 {
+                                                                position:absolute;
+                                                                left: 69%;
+                                                                top: 254%;
+                                                                border-radius: 10px;
+                                                            }
+                                                        
+                                                            #text22 {
+                                                                position: absolute;
+                                                                font-family: "Open Sans", system-ui;
+                                                                font-size: 25px;
+                                                                top: 276.50%;
+                                                                left: 75%;
+                                                            }
+
+                                                            
+                                                        .custom-button23 {
+                                                            position: absolute;
+                                                            top: 284%;
+                                                            left: 67.50%;
+                                                            background-color: #4CAF50; 
+                                                            border: none; 
+                                                            color: white; 
+                                                            padding: 15px 32px; 
+                                                            text-align: center; 
+                                                            text-decoration: none; 
+                                                            display: inline-block; 
+                                                            font-size: 13px; 
+                                                            margin: 10px 2px; 
+                                                            cursor: pointer; 
+                                                            border-radius: 12px; 
+                                                            transition-duration: 0.4s; 
+                                                        }
+                                                    
+                                                        .custom-button23:hover {
+                                                            background-color: white;
+                                                            color: black; 
+                                                            border: 2px solid #4CAF50;
+                                                        }
+                                            
+                                                        .button, #button23 {
+                                                            transition: color 0.3s ease;
+                                                            position: absolute;
+                                                            background-color: #6C757D;
+                                                            color: #E0FFFF;
+                                                            cursor: pointer;
+                                                            top: 307%;
+                                                            left: 69%;
+                                                            width: 420px;
+                                                            padding: 5px 20px;
+                                                            font-size: 20px;
+                                                            }
+                                                            
+                                                        
+                                                            .button:hover, #button23:hover {
+                                                            color: red;
+                                                            background-color: #333333;
+                                                            transform: scale(1.05);
+                                                            }
+                                            
+                                                            #image23 {
+                                                                position:absolute;
+                                                                left: 69%;
+                                                                top: 286%;
+                                                                border-radius: 10px;
+                                                            }
+                                                        
+                                                            #text23 {
+                                                                position: absolute;
+                                                                font-family: "Open Sans", system-ui;
+                                                                font-size: 25px;
+                                                                top: 309%;
+                                                                left: 77%;
+                                                            }
+
+                                                            .custom-button24 {
+                                                                position: absolute;
+                                                                top: 284%;
+                                                                left: 43%;
+                                                                background-color: #4CAF50; 
+                                                                border: none; 
+                                                                color: white; 
+                                                                padding: 15px 32px; 
+                                                                text-align: center; 
+                                                                text-decoration: none; 
+                                                                display: inline-block; 
+                                                                font-size: 13px; 
+                                                                margin: 10px 2px; 
+                                                                cursor: pointer; 
+                                                                border-radius: 12px; 
+                                                                transition-duration: 0.4s; 
+                                                            }
+                                                        
+                                                            .custom-button24:hover {
+                                                                background-color: white;
+                                                                color: black; 
+                                                                border: 2px solid #4CAF50;
+                                                            }
+                                                
+                                                            .button, #button24 {
+                                                                transition: color 0.3s ease;
+                                                                position: absolute;
+                                                                background-color: #6C757D;
+                                                                color: #E0FFFF;
+                                                                cursor: pointer;
+                                                                top: 307%;
+                                                                left: 44%;
+                                                                width: 400px;
+                                                                padding: 5px 20px;
+                                                                font-size: 20px;
+                                                                }
+                                                                
+                                                            
+                                                                .button:hover, #button24:hover {
+                                                                color: red;
+                                                                background-color: #333333;
+                                                                transform: scale(1.05);
+                                                                }
+                                                
+                                                                #image24 {
+                                                                    position:absolute;
+                                                                    left: 44%;
+                                                                    top: 286%;
+                                                                    border-radius: 10px;
+                                                                }
+                                                            
+                                                                #text24 {
+                                                                    position: absolute;
+                                                                    font-family: "Open Sans", system-ui;
+                                                                    font-size: 25px;
+                                                                    top: 309%;
+                                                                    left: 51%;
+                                                                }
+
+                                                                .custom-button25 {
+                                                                    position: absolute;
+                                                                    top: 284%;
+                                                                    left: 16.50%;
+                                                                    background-color: #4CAF50; 
+                                                                    border: none; 
+                                                                    color: white; 
+                                                                    padding: 15px 32px; 
+                                                                    text-align: center; 
+                                                                    text-decoration: none; 
+                                                                    display: inline-block; 
+                                                                    font-size: 13px; 
+                                                                    margin: 10px 2px; 
+                                                                    cursor: pointer; 
+                                                                    border-radius: 12px; 
+                                                                    transition-duration: 0.4s; 
+                                                                }
+                                                            
+                                                                .custom-button25:hover {
+                                                                    background-color: white;
+                                                                    color: black; 
+                                                                    border: 2px solid #4CAF50;
+                                                                }
+                                                    
+                                                                .button, #button25 {
+                                                                    transition: color 0.3s ease;
+                                                                    position: absolute;
+                                                                    background-color: #6C757D;
+                                                                    color: #E0FFFF;
+                                                                    cursor: pointer;
+                                                                    top: 308%;
+                                                                    left: 18%;
+                                                                    width: 425px;
+                                                                    padding: 5px 20px;
+                                                                    font-size: 20px;
+                                                                    }
+                                                                    
+                                                                
+                                                                    .button:hover, #button25:hover {
+                                                                    color: red;
+                                                                    background-color: #333333;
+                                                                    transform: scale(1.05);
+                                                                    }
+                                                    
+                                                                    #image25 {
+                                                                        position:absolute;
+                                                                        left: 18%;
+                                                                        top: 286%;
+                                                                        border-radius: 10px;
+                                                                    }
+                                                                
+                                                                    #text25 {
+                                                                        position: absolute;
+                                                                        font-family: "Open Sans", system-ui;
+                                                                        font-size: 25px;
+                                                                        top: 309.50%;
+                                                                        left: 24%;
+                                                                    }
+
+                                                                    .custom-button26 {
+                                                                        position: absolute;
+                                                                        top: 318%;
+                                                                        left: 16.50%;
+                                                                        background-color: #4CAF50; 
+                                                                        border: none; 
+                                                                        color: white; 
+                                                                        padding: 15px 32px; 
+                                                                        text-align: center; 
+                                                                        text-decoration: none; 
+                                                                        display: inline-block; 
+                                                                        font-size: 13px; 
+                                                                        margin: 10px 2px; 
+                                                                        cursor: pointer; 
+                                                                        border-radius: 12px; 
+                                                                        transition-duration: 0.4s; 
+                                                                    }
+                                                                
+                                                                    .custom-button26:hover {
+                                                                        background-color: white;
+                                                                        color: black; 
+                                                                        border: 2px solid #4CAF50;
+                                                                    }
+                                                        
+                                                                    .button, #button26 {
+                                                                        transition: color 0.3s ease;
+                                                                        position: absolute;
+                                                                        background-color: #6C757D;
+                                                                        color: #E0FFFF;
+                                                                        cursor: pointer;
+                                                                        top: 342%;
+                                                                        left: 18%;
+                                                                        width: 421px;
+                                                                        padding: 5px 20px;
+                                                                        font-size: 20px;
+                                                                        }
+                                                                        
+                                                                    
+                                                                        .button:hover, #button26:hover {
+                                                                        color: red;
+                                                                        background-color: #333333;
+                                                                        transform: scale(1.05);
+                                                                        }
+                                                        
+                                                                        #image26 {
+                                                                            position:absolute;
+                                                                            left: 18%;
+                                                                            top: 320%;
+                                                                            border-radius: 10px;
+                                                                        }
+                                                                    
+                                                                        #text26 {
+                                                                            position: absolute;
+                                                                            font-family: "Open Sans", system-ui;
+                                                                            font-size: 25px;
+                                                                            top: 344.25%;
+                                                                            left: 24%;
+                                                                        }
+
+                                                                        .custom-button27 {
+                                                                            position: absolute;
+                                                                            top: 318%;
+                                                                            left:42%;
+                                                                            background-color: #4CAF50; 
+                                                                            border: none; 
+                                                                            color: white; 
+                                                                            padding: 15px 32px; 
+                                                                            text-align: center; 
+                                                                            text-decoration: none; 
+                                                                            display: inline-block; 
+                                                                            font-size: 13px; 
+                                                                            margin: 10px 2px; 
+                                                                            cursor: pointer; 
+                                                                            border-radius: 12px; 
+                                                                            transition-duration: 0.4s; 
+                                                                        }
+                                                                    
+                                                                        .custom-button27:hover {
+                                                                            background-color: white;
+                                                                            color: black; 
+                                                                            border: 2px solid #4CAF50;
+                                                                        }
+                                                            
+                                                                        .button, #button27 {
+                                                                            transition: color 0.3s ease;
+                                                                            position: absolute;
+                                                                            background-color: #6C757D;
+                                                                            color: #E0FFFF;
+                                                                            cursor: pointer;
+                                                                            left: 43.50%;
+                                                                            top: 341%;
+                                                                            width: 421px;
+                                                                            padding: 5px 20px;
+                                                                            font-size: 20px;
+                                                                            }
+                                                                            
+                                                                        
+                                                                            .button:hover, #button27:hover {
+                                                                            color: red;
+                                                                            background-color: #333333;
+                                                                            transform: scale(1.05);
+                                                                            }
+                                                            
+                                                                            #image27 {
+                                                                                position:absolute;
+                                                                                left: 43.50%;
+                                                                                top: 320%;
+                                                                                border-radius: 10px;
+                                                                            }
+                                                                        
+                                                                            #text27 {
+                                                                                position: absolute;
+                                                                                font-family: "Open Sans", system-ui;
+                                                                                font-size: 25px;
+                                                                                top: 343%;
+                                                                                left: 48%;
+                                                                            }
+
+                                                                            .custom-button28 {
+                                                                                position: absolute;
+                                                                                left: 68%;
+                                                                                top: 318%;
+                                                                                background-color: #4CAF50; 
+                                                                                border: none; 
+                                                                                color: white; 
+                                                                                padding: 15px 32px; 
+                                                                                text-align: center; 
+                                                                                text-decoration: none; 
+                                                                                display: inline-block; 
+                                                                                font-size: 13px; 
+                                                                                margin: 10px 2px; 
+                                                                                cursor: pointer; 
+                                                                                border-radius: 12px; 
+                                                                                transition-duration: 0.4s; 
+                                                                            }
+                                                                        
+                                                                            .custom-button28:hover {
+                                                                                background-color: white;
+                                                                                color: black; 
+                                                                                border: 2px solid #4CAF50;
+                                                                            }
+                                                                
+                                                                            .button, #button28 {
+                                                                                transition: color 0.3s ease;
+                                                                                position: absolute;
+                                                                                background-color: #6C757D;
+                                                                                color: #E0FFFF;
+                                                                                cursor: pointer;
+                                                                                left: 69%;
+                                                                                top: 342.50%;
+                                                                                width: 421px;
+                                                                                padding: 5px 20px;
+                                                                                font-size: 20px;
+                                                                                }
+                                                                                
+                                                                            
+                                                                                .button:hover, #button28:hover {
+                                                                                color: red;
+                                                                                background-color: #333333;
+                                                                                transform: scale(1.05);
+                                                                                }
+                                                                
+                                                                                #image28 {
+                                                                                    position:absolute;
+                                                                                    left: 69%;
+                                                                                    top: 320%;
+                                                                                    border-radius: 10px;
+                                                                                }
+                                                                            
+                                                                                #text28 {
+                                                                                    position: absolute;
+                                                                                    font-family: "Open Sans", system-ui;
+                                                                                    font-size: 25px;
+                                                                                    top: 344%;
+                                                                                    left: 74%;
+                                                                                }
+    
